@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ситора Ис4-2 - Домашнее задание</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f2f4f8;
+        }
+
+        .block {
+            background: white;
+            padding: 25px 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .block h1 {
+            color: #1a3a6b;
+            text-align: center;
+            border-bottom: 3px solid #4a7ab5;
+            padding-bottom: 10px;
+        }
+        .dialog {
+            padding-left: 20px;
+            border-left: 4px solid #4a7ab5;
+        }
+        .dialog p {
+            margin: 8px 0;
+        }
+        .author {
+            text-align: right;
+            margin-top: 20px;
+            font-style: italic;
+            color: #555;
+        }
+        .question {
+            margin-top: 25px;
+            padding: 15px;
+            background: #e6edf5;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
+        hr {
+            border: 0;
+            border-top: 2px dashed #ccc;
+            margin: 25px 0;
+        }
+
+        .block2 {
+            background: white;
+            padding: 25px 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .block2 h1 {
+            color: #1a3a6b;
+            text-align: center;
+            border-bottom: 3px solid #4a7ab5;
+            padding-bottom: 10px;
+        }
+        .blue {
+            color: #2a6bb0;
+            font-weight: bold;
+        }
+        .end {
+            text-align: center;
+            margin-top: 25px;
+            color: #555;
+            font-style: italic;
+        }
+        .emoji {
+            font-size: 20px;
+        }
+
+        .signature {
+            text-align: right;
+            font-size: 18px;
+            font-weight: bold;
+            color: #1a3a6b;
+            margin-top: 10px;
+            padding-top: 15px;
+            border-top: 2px solid #4a7ab5;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="block">
+        <h1> Коллекция занимательных историй</h1>
+
+        <p><strong>Коллекцию занимательных историй открывает следующий поучительный рассказ.</strong></p>
+
+        <div class="dialog">
+            <p>— Глядите, действительно поезд! – удивился Незнайка.</p>
+            
+            <p>Пестренький, который и на этот раз решил не удивляться, сказал:</p>
+            <p>— Эко диво - поезд! Поставили домики на колеса, сами залезли в них и радуются, а паровоз тащит.</p>
+            
+            <p>— Слушай, Кнопочка, что это такое? Опять он мне на нервы действует! – воскликнул Незнайка.</p>
+            
+            <p>Пестренький презрительно фыркнул:</p>
+            <p>— Подумаешь, какой нежный: «нервы»!</p>
+            
+            <p>— Я вот как дам тебе! – разозлился Незнайка.</p>
+            
+            <p>— Тише, тише! Что это за слово «дам»? – возмутилась Кнопочка.</p>
+            
+            <p>— А чего он на меня говорит – нежный?</p>
+            
+            <p>— Ты, Пестренький, не должен называть его нежным, – сказала Кнопочка, – Это нехорошо.</p>
+        </div>
+
+        <div class="author">
+            <p><strong>«Незнайка в Солнечном городе»</strong></p>
+            <p>Николай Носов</p>
+        </div>
+
+        <hr>
+
+        <div class="question">
+            Вам понравилась эта история? Если да, то коллекция будет пополняться.
+        </div>
+    </div>
+
+
+    <div class="block2">
+        <h1> Как я пришла в IT</h1>
+
+        <p>
+            Всё детство я играла на улице. Но с 13 лет у меня появился интернет, и я начала сидеть в компьютере. Сначала просто играла, а потом стала еще рисовать в Paint. Это успокаивало.
+        </p>
+
+        <p>
+            Со временем мне стало интересно, как всё это работает. А когда в школе появился предмет «информатика», мне понравилось. Я начала углубляться в эту тему. Потом в 8 классе началось программирование, и мне понравилось.
+        </p>
+
+        <p>
+            <span class="blue">Именно тогда я точно решила, кем хочу стать. И на кого поступать.</span>
+        </p>
+
+        <div class="end">
+            <span class="emoji"></span> Информатика — это не просто предмет, это моё будущее <span class="emoji"></span>
+        </div>
+    </div>
+
+
+    <div class="signature">
+        Рахимова ИС-4-2
+    </div>
+
+</body>
+</html>
